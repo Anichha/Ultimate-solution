@@ -6,3 +6,6 @@
 .container{
     text-align: center;
 }
+.hover:hover{
+    color: black;
+}
