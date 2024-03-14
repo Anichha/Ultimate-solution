@@ -1,80 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../bootstrap-5.3.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.css">
-    <script src="../../bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
-    <!-- my links -->
-    <link rel="stylesheet" href="../../css/cbse.css">
-    <title>Cbse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../bootstrap-5.3.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.css">
+  <script src="../../bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  <!-- my links -->
+  <link rel="stylesheet" href="../../css/cbse.css">
+  <title>Cbse</title>
 </head>
+
 <body>
- <section class="container-fluid">
+  <section class="container-fluid">
     <h1> Welcome to CBSE portal!</h1>
     <h4>Here you can find out your accurate percentage, grades & CGPA with good stream selection tips.</h4>
-    <table class="table table-success"> 
-        <thead>
-          <tr>
-            <th scope="col">SN</th>
-            <th scope="col">Subject</th>
-            <th scope="col">Marks</th>
-            <th scope="col">Grade</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Maths</td>
-            <td><input type="text" id="maths" placeholder="Enter marks"></td>
-            <td><span id="mg"></span></td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Physics</td>
-            <td><input type="text" id="physics" placeholder="Enter marks"></td>
-            <td><span id="pg"></span></td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Chemistry</td>
-            <td><input type="text" id="chem" placeholder="Enter marks"></td>
-            <td><span id="cg"></span></td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>English</td>
-            <td><input type="text" id="eng" placeholder="Enter marks"></td>
-            <td><span id="eg"></span></td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Chemistry</td>
-            <td><input type="text" id="Hindi" placeholder="Enter marks"></td>
-            <td><span id="hg"></span></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td class="colspan-4"><button class="btn btn-primary">submit</button></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="container-fluid">
-        <h2>you have scored <span id="percent">0</span> % and your CGPA is <span id="cgpa">0.0</span></h2>
-      </div>
-      <section class="container-fluid">
+    <table class="table table-success">
+      <thead>
+        <tr>
+          <th scope="col">SN</th>
+          <th scope="col">Subject</th>
+          <th scope="col">Marks</th>
+          <th scope="col">Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Maths</td>
+          <td><input type="text" id="maths" placeholder="Enter marks"></td>
+          <td><span id="mg"></span></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Physics</td>
+          <td><input type="text" id="physics" placeholder="Enter marks"></td>
+          <td><span id="pg"></span></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Chemistry</td>
+          <td><input type="text" id="chem" placeholder="Enter marks"></td>
+          <td><span id="cg"></span></td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>English</td>
+          <td><input type="text" id="eng" placeholder="Enter marks"></td>
+          <td><span id="eg"></span></td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Chemistry</td>
+          <td><input type="text" id="Hindi" placeholder="Enter marks"></td>
+          <td><span id="hg"></span></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="colspan-4"><button class="btn btn-primary">submit</button></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="container-fluid">
+      <h2>you have scored <span id="percent">0</span> % and your CGPA is <span id="cgpa">0.0</span></h2>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="../../src/cbse/maths8th.jpg" class="card-img-top" alt="Img not found">
+          <img src="../../src/cbse/maths8th.jpg" class="card-img-top im1" alt="Img not found">
           <div class="card-body">
-            <h5 class="card-title" id="sname">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title" id="sname">Class 8th</h5>
+            <p class="card-text">All the question models of this class is avialable here</p>
+            <a href="#" class="btn btn-primary">click here</a>
           </div>
         </div>
-      </section>
- </section>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="../../src/cbse/maths9th.jpg" class="card-img-top im1" alt="Img not found">
+          <div class="card-body">
+            <h5 class="card-title" id="sname">Class 9th</h5>
+            <p class="card-text">All the question models of this class is avialable here</p>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="../../src/cbse/maths10th.jpeg" class="card-img-top im1" alt="Img not found">
+          <div class="card-body">
+            <h5 class="card-title" id="sname">Class 10th</h5>
+            <p class="card-text">All the question models of this class is avialable here</p>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="../../src/cbse/maths11th.jpg" class="card-img-top im1" alt="Img not found">
+          <div class="card-body">
+            <h5 class="card-title" id="sname">Class 11th</h5>
+            <p class="card-text">All the question models of this class is avialable here</p>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="../../src/cbse/maths12th.jpg" class="card-img-top im1" alt="Img not found">
+          <div class="card-body">
+            <h5 class="card-title" id="sname">Class 12th</h5>
+            <p class="card-text">All the question models of this class is avialable here</p>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
