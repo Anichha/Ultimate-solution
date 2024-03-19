@@ -1,22 +1,20 @@
-let classes =[
-    {
-        name:"class 8th",
-        img:"../../src/cbse/maths8th.jpg"
-    },
-    {
-        name:"class 9th",
-        img:"../../src/cbse/maths9th.jpg"
-    },
-    {
-        name:"class 10th",
-        img:"../../src/cbse/maths10th.jpg"
-    },
-    {
-        name:"class 11th",
-        img:"../../src/cbse/maths11th.jpg"
-    },
-    {
-        name:"class 12th",
-        img:"../../src/cbse/maths12th.jpg"
-    },
-]
+let m = document.querySelector("#maths");
+let p = document.querySelector("#physics");
+let c = document.querySelector("#chem");
+let e = document.querySelector("#eng");
+let h = document.querySelector("#hindi");
+let per = document.querySelector("#percent");
+let cgp = document.querySelector("#cgpa");
+let bt = document.querySelector("#bt");
+
+bt.addEventListener('click', result)
+function result() {
+  let maths = Number(m.value);
+  let physics = Number(p.value);
+  let chemistry = Number(c.value);
+  let english = Number(e.value);
+  let hindi = Number(h.value);
+  let tot = maths + physics +chemistry +english +hindi;
+  let percentage=Math.floor((tot/500)*100);
+  per.innerHTML = percentage;
+}
