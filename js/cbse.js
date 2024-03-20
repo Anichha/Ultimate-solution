@@ -14,7 +14,9 @@ function result() {
   let chemistry = Number(c.value);
   let english = Number(e.value);
   let hindi = Number(h.value);
-  let tot = maths + physics +chemistry +english +hindi;
-  let percentage=Math.floor((tot/500)*100);
-  per.innerHTML = percentage;
+  let tot = maths + physics + chemistry + english + hindi;
+  let percentage = (tot / 500) * 100;
+  let cgpa=(percentage/9.5);
+  per.innerHTML = percentage.toFixed(2);
+  cgp.innerHTML=cgpa.toFixed(1);
 }
