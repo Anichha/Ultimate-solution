@@ -1,4 +1,7 @@
-
+#background{
+    background-image: url(../src/home/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    height: 100vh;
+}
 .nav-link
 {
     display: flex;
