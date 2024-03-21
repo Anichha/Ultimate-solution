@@ -1,9 +1,10 @@
+
 .nav-link
 {
     display: flex;
     align-items: center;
 }
-.container{
+.container,.container-fluid{
     text-align: center;
 }
 .hover:hover{
@@ -15,3 +16,4 @@
 .hover:hover>.fa-solid{
     color: yellow;
 }
+
