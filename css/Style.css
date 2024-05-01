@@ -1,6 +1,18 @@
-#background{
+#img{
     background-image: url(../src/home/wallpaperflare.com_wallpaper\ \(6\).jpg);
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    z-index: -1;
 }
 .nav-link
 {
